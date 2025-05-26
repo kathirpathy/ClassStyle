@@ -1,16 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sistem Permohonan Cuti ILP</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="container text-center mt-5">
-        <h1>Sistem Permohonan Cuti ILP Kuala Langat</h1>
-        <p>Siapakah anda?</p>
-        <a href="loginPelajar.php" class="btn btn-primary">Pelajar</a>
-        <a href="loginKb.php" class="btn btn-primary">Ketua Bahagian</a>
-        <a href="loginBppl.php" class="btn btn-primary">BPPL</a>
-    </div>
-</body>
-</html>
+<?php
+// Display a simple greeting
+echo "Hello, welcome to my PHP page!<br>";
+
+// Define variables
+$name = "Ali";
+$age = 20;
+
+// Use conditional statements
+if ($age >= 18) {
+    echo "$name is an adult.<br>";
+} else {
+    echo "$name is a minor.<br>";
+}
+
+// Define a function
+function greet($person) {
+    return "Have a great day, $person!<br>";
+}
+
+// Call the function
+echo greet($name);
+?>
+
